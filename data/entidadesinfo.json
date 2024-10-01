@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Colsanitas",
+        "direccion": "Calle 123 # 23a",
+        "especialidades": ["cardiologia", "manejo del dolor", "omeopatía"]
+    },
+    {
+        "nombre": "SaludCop",
+        "direccion": "Avenida Sierra Nevada, Medellin",
+        "especialidades": ["Medicina general", "cirujia plastica", "fisiatría"]
+    },
+    {
+        "nombre": "Pediatrics",
+        "direccion": "Cra. 12 #21 55",
+        "especialidades":["Ginecología", "Oncología", "Pediatría","Nutrición"]
+    }
+]
+

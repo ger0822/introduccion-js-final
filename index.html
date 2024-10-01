@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navBar">
+                <li><a href="">Home</a></li>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Que tratamos</a></li>
+                <li><a href="">Educate</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+                <div class= "card-body">
+                    <div class="card-title">
+                        <h4>Simulador Servicios Médicos</h4>
+                    <div class="name">
+                        <input type="text" placeholder="name" name="" id="name">
+                    </div>
+                    <div class="email">
+                        <input type="text" placeholder="Email" name="" id="email">
+                    </div>
+                    <div class="numero">
+                        <input type="text" placeholder="Number" name="number" id="number">
+                    </div>
+                    <div class="entidades-disponibles">
+                        <select id="entidadesDropdown">
+                            <option value="">Seleccione una entidad</option>
+                        </select>
+                    </div>
+                    <div class="button">
+                        <button class="send">Enviar</button>
+                    </div>
+                    <div class="message">
+                        <div class="success" id="success">Selecciona tu entidad de salud</div>
+                        <div class="danger" id="danger">Los campos no pueden estar vacios!</div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="container-footer-main">
+        <div>
+            <a class="link-footer" href="https://www.manejodolor.com/">Clinica Manejo del Dolor</a>
+            <div class="footer-icons">
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</body>
+</html>

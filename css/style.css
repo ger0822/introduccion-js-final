@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #1bae70;
+    padding: 10px 0;
+}
+
+
+.navBar{
+    list-style-type:none;
+    display: flex; 
+    justify-content: center; 
+}
+
+
+.navBar li {
+    padding: 0 30px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.navBar li a {
+    text-decoration: none;
+}
+
+.navBar li:hover {
+    transform: scale(1.2); 
+}
+
+
+/* Dropdown */
+
+.container{
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 60vh;
+}
+
+.card-body {
+    width: 50%; 
+    max-width: 500px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: auto;
+}
+
+.message{
+    width:100%;
+    position: relative;
+    margin-bottom: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.message .success{
+    font-size: 20px;
+    color: green;
+    position:absolute;
+    display:none;
+}
+
+
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display:none;
+
+}
+
+@keyframes buttons {
+    0% {
+        transform: scale(0.2);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+}
+
+/* footer */
+.container-footer-main {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.link-footer {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+}
